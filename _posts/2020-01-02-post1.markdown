@@ -7,7 +7,7 @@ category: sample
 # post-sample
 > Hello!
 
-This is codedssssssssssssssssssss
+This is code
 ```ruby
 print 'hello world'
 ```
