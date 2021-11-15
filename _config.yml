@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: haerong
-email: ejjoo7994@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Themed by ejjoo
+email: hrhr0616@naver.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Themed by ejjoo
 # baseurl: "/" # the subpath of your site, e.g. /blog
-# url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://hrhr0616.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ejjoo
 highlighter: rouge
 svg:
