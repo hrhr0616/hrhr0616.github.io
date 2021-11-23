@@ -10,14 +10,14 @@ category: internet
 서버가 브라우저에게 전달한 응답인 HTML문서를 브라우저는 읽어들이고 해석한 후 사용자에게 보여준다.
 HTML 및 CSS를 해석하는 구체적인 내용들은 모두 W3C에 의해 관리되고 유지된다. 지난 몇년간 브라우저들은 각자 이러한 구체적 규정들의 일부만 충족하며 각 브라우저별 확장 기능을 개발해 왔다.
 
-![alt text](/public/img/internet1.png){: width="20%"}
+![alt text](/public/img/internet1.png){: width="50%"}
 
 ### 브라우저의 주요 기능
 사용자가 선택한 자원을 서버에 요청하고 브라우저에 요청하는 것이다. 자원은 보통 HTML문서지만 PDF나 이미지 또는 다른 형태일 수 있다. 자원의 주소는 URI에 의해 정해진다.
 
 ### 웹 브라우저의 구조와 렌더링 엔진
 
-![alt text](/public/img/internet2.png){: width="20%"}
+![alt text](/public/img/internet2.png){: width="45%"}
 
 1. 사용자 인터페이스 - 주소 표시줄, 이전/다음 버튼, 북마크 메뉴 등 요청한 페이지를 보여주는 창을 제외한 나머지 모든 부분이다.
 2. 브라우저 엔진 - 사용자 인터페이스와 렌더링 엔진 사이의 동작을 제어
@@ -36,7 +36,7 @@ HTML 및 CSS를 해석하는 구체적인 내용들은 모두 W3C에 의해 관�
 3. 렌더 트리 레이아웃 만들기
 4. 렌더 트리 페인팅
 
-![alt text](/public/img/internet3.png){: width="20%"}
+![alt text](/public/img/internet3.png){: width="45%"}
 
 ##### HTML 파싱 후 DOM 트리 만들기
 렌더링 엔진은 우선 네트워크 레이어를 통해 전달받은 HTML 문서를 파싱하여 각 요소들을 DOM Tree의 각 DOM노드들로 전환한다.
@@ -53,7 +53,7 @@ DOM이란 Document object model의 준말로 마크업 형태의 HTML 문서를 
 
 이 코드를 DOM Tree로 전환할 때 아래와 같이 구성된다.
 
-![alt text](/public/img/internet4.png){: width="20%"}
+![alt text](/public/img/internet4.png){: width="50%"}
 
 ##### 렌더 트리 만들기
 HML문서들을 파싱하여 DOM Tree를 구성한 후, 렌더링 엔진은 CSS/Style 데이터를 파싱하고 그 스타일 데이터들로 렌더트리를 만든다. DOM트리가 웹 상에 나타날 내용을 구성한다면 렌더 트리는 시각적 요소, 어떻게 나타날지 그 스타일을 지정한다. 렌더 트리는 색상, 차원 등 시각적 지침들을 담은 정사각형들로 구성되며 정사각형들은 스크린에 맞는 순서대로 정렬되어야 한다.
